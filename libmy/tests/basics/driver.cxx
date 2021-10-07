@@ -12,6 +12,7 @@ int main ()
   using namespace std;
   using namespace my;
 
+
   // Basics.
   //
   {
@@ -32,4 +33,6 @@ int main ()
   {
     assert (e.what () == string ("empty name"));
   }
+
+  something();
 }

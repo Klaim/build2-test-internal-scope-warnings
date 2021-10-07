@@ -11,6 +11,8 @@ int main (int argc, char* argv[])
     cerr << "error: missing name" << endl;
     return 1;
   }
+  my::something();
 
   cout << "Hello, " << argv[1] << '!' << endl;
+
 }
