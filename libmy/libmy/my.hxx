@@ -14,7 +14,7 @@ namespace my
   say_hello (std::ostream&, const std::string& name);
 
   inline int something() {
-    int x;
+    unsigned int x = -7;
     return x;
   }
 
