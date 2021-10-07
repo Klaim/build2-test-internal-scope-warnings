@@ -1,0 +1,3 @@
+# libmy
+
+C++ library

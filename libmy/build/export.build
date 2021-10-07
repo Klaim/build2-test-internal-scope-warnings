@@ -1,0 +1,6 @@
+$out_root/
+{
+  include libmy/
+}
+
+export $out_root/libmy/$import.target
