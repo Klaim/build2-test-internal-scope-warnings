@@ -12,7 +12,7 @@ namespace my
     if (n.empty ())
       throw invalid_argument ("empty name");
 
-    int x;
+    unsigned int x = -1;
 
     o << "Hello, " << n << '!' << endl;
 
